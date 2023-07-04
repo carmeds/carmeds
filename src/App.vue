@@ -1,21 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView, RouterLink } from 'vue-router';
+import Aside from './components/layouts/Aside.vue';
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <Aside></Aside>
+  <div class="bg-red-400 flex flex-col h-screen sm:ml-64">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
-</style>

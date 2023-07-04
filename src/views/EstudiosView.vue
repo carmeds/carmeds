@@ -5,5 +5,3 @@
   </div>
 </template>
 
-<style>
-</style>
