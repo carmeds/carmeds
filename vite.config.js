@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base:'https://carmeds.github.io/carmeds/',
+  // base:'https://carmeds.github.io/carmeds/',
+  base:'/carmeds/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
