@@ -23,10 +23,10 @@ const misocial1=reactive({
       <img class=" bg-purple-200 rounded-full w-36 h-36 bg-contain" src="/public/img/foto2022.jpg" alt="carga de imagen">
     </div>
 
-    <h1 class="text-white font-bold uppercase text-3xl">Medina Santamaria Carlos Santiago</h1>
+    <h1 class="text-white font-bold uppercase text-3xl mt-5">Medina Santamaria Carlos Santiago</h1>
     <h2 class="text-white font-bold uppercase mt-2"> <span class="text-gray-300"> Mz A lote 9 Urb. El Dorado - Puente piedra </span>
-      - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span>912960047
-      - <span class="text-gray-300 lowercase">carmeds@gmail.com</span> 
+      - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span> 912960047
+      - <span class="text-gray-300 ">carmeds@gmail.com</span> 
     </h2>
     <div class="bg-white mt-5 p-3 rounded hidden sm:flex">
       <p>Bachiller en Matemáticas. Me desempeño como Desarrollador Web Frontend y Backend. Cuento con más de 7 años 
