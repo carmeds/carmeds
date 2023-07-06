@@ -19,14 +19,14 @@ const experiencia2=reactive({
 const experiencia3=reactive({
     puesto:'Programador',
     empresa:'Soreto SAC',
-    detalle:'Programacion de Sistema de control de Ventas. Realizado en Visual Basic 6.0 y Mysql',
+    detalle:'Programación de Sistema de control de Ventas. Realizado en Visual Basic 6.0 y Mysql',
     fecha:'Octubre 2013 - Abril 2015'
 }) 
 
 const experiencia4=reactive({
     puesto:'Analista de Compras',
     empresa:'Sodexo',
-    detalle:'Uso de tablas dina micas y Macros en Excel – Manejo del Sistema SAP MM registro de compras',
+    detalle:'Uso de tablas dinámicas y Macros en Excel – Manejo del Sistema SAP MM registro de compras',
     fecha:'Marzo 2010 - Enero 2012'
 }) 
 

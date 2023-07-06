@@ -24,6 +24,7 @@ const menubar=()=>{
     let menu=document.getElementById("mimenubar")
     if(menu.classList.contains("hidden")){
         menu.classList.remove("hidden")
+        menu.classList.add("w-full")
     }else{
         menu.classList.add("hidden")
     }
@@ -32,7 +33,7 @@ const menubar=()=>{
 </script>
 
 <template>
-  <div class="bg-gray-700 sm:ml-64 sm:hidden  w-full absolute mt-0">
+  <div class="bg-gray-800 w-full sm:ml-64 sm:hidden absolute mt-0">
     <div @click="menubar" class="bg-gray-800 p-2 h-12 w-12 text-white uppercase font-bold flex justify-center items-center cursor-pointer">
       <font-awesome-icon :icon="['fas', 'bars']" />
     </div>

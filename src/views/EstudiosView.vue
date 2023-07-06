@@ -18,7 +18,7 @@
   const estudios3=reactive({
     profesion:'Especialista en Excel 2013',
     centro:'Sistemas UNI',
-    detalle:'Tecnico Excel Básico - Excel Avanzado - Desarróllo de Aplicaciones VBA - Macros',
+    detalle:'Tecnico Excel Básico - Excel Avanzado - Desarrollo de Aplicaciones VBA - Macros',
     fecha:'Fecha de ingreso: 2013'
   }) 
 
@@ -32,7 +32,7 @@
   const estudios5=reactive({
     profesion:'Experto en Hardware y Redes de Pcs 2010',
     centro:'Sistemas UNI',
-    detalle:'Tecnico Ensamblaje - Cónfiguración de Dispositivos y Utilitarios - Mantenimiento y Reparación de PCS - Conectividad y Cableado Estructurado',
+    detalle:'Técnico Ensamblaje - Cónfiguración de Dispositivos y Utilitarios - Mantenimiento y Reparación de PCS - Conectividad y Cableado Estructurado',
     fecha:'Fecha de ingreso: 2013'
   }) 
 

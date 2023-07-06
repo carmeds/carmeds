@@ -7,7 +7,7 @@ import Asidesm from './components/layouts/Asidesm.vue'
 <template>
   <Aside></Aside>
     <Asidesm />
-    <div class="bg-gray-700 h-screen flex flex-col justify-center content-center sm:ml-64">
+    <div class="bg-gradient-to-r from-gray-800 to-blue-600 h-screen flex flex-col justify-center content-center sm:ml-64">
       <RouterView />
     </div>
 </template>
