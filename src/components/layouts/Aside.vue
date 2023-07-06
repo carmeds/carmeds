@@ -1,28 +1,44 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { reactive } from "vue";
+import Asidelink from '../UI/Asidelink.vue';
+
+const link1=reactive({
+    name: 'principal',
+    texto: 'Acerca de'
+})
+
+const link2=reactive({
+    name: 'experiencia',
+    texto: 'Experiencia'
+})
+
+const link3=reactive({
+    name: 'estudios',
+    texto: 'Estudios'
+})
+
+const link4=reactive({
+    name: 'skills',
+    texto: 'Skills'
+})
+
 </script>
 
 <template>
-    <div class="bg-blue-600 fixed top-0 left-0 z-40 w-64 h-screen grid content-center transition-transform -translate-x-full sm:translate-x-0">
-        <div class="bg-blue-200 p-5">
-            <div class="bg-white p-2 flex flex-col justify-center">
-                <img class=" bg-purple-200 rounded-full h-20" src="/public/img/vite.svg" alt="carga de imagen">
-                <p class="text-center">Analista Programador</p>
+    <div class="bg-sky-900 fixed top-0 left-0 z-40 w-64 h-screen grid content-center transition-transform -translate-x-full sm:translate-x-0">
+        <div class="p-5">
+            <div class="p-2 flex flex-col justify-center">
+                <div class="w-full flex justify-center">
+                    <img class=" bg-purple-200 rounded-full w-36 h-36" src="/public/img/vite.svg" alt="carga de imagen">
+                </div>
+                <p class="text-white text-center mt-2 font-bold uppercase">Analista Programador</p>
             </div>
-            <nav class="bg-green-500 p-2">
-                <ul class="p-2">
-                    <li>
-                        <RouterLink :to="{name: 'principal'}">Acerca de</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink :to="{name: 'experiencia'}">Experiencia</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink :to="{name: 'estudios'}">Estudios</RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink :to="{name: 'skills'}">Skills</RouterLink>
-                    </li>
+            <nav class="p-2">
+                <ul class="p-2 mt-12">
+                    <Asidelink :milink="link1" />
+                    <Asidelink :milink="link2" />
+                    <Asidelink :milink="link3" />
+                    <Asidelink :milink="link4" />
 
                 </ul>
             </nav>
