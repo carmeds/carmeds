@@ -24,7 +24,9 @@ const misocial1=reactive({
     </div>
 
     <h1 class="text-white font-bold uppercase text-3xl mt-5">Medina Santamaria Carlos Santiago</h1>
-    <h2 class="text-white font-bold uppercase mt-2"> <span class="text-gray-300"> Mz A lote 9 Urb. El Dorado - Puente piedra </span>
+    <h2 class="text-gray-300 font-bold uppercase sm:hidden">Analista Programador</h2>
+
+    <h2 class="text-white font-bold uppercase mt-3"> <span class="text-gray-300"> Mz A lote 9 Urb. El Dorado - Puente piedra </span>
       - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span> 912960047
       - <span class="text-gray-300 ">carmeds@gmail.com</span> 
     </h2>
@@ -33,7 +35,7 @@ const misocial1=reactive({
         de experiencia en implementación y desarrollo de aplicaciones.
       </p>
     </div>
-    <div class="mt-5 p-1 rounded flex flex-wrap">
+    <div class="mt-5 pl-0 py1 rounded flex flex-wrap justify-center sm:justify-start">
       <ElementSocial :misocial="misocial"/>
       <ElementSocial :misocial="misocial1"/>
     </div>

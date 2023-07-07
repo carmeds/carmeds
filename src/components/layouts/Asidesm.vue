@@ -38,7 +38,7 @@ const menubar=()=>{
       <font-awesome-icon :icon="['fas', 'bars']" />
     </div>
 
-    <ul id="mimenubar" class="hidden ">
+    <ul id="mimenubar" class="hidden">
       <Asidemilink :milink="link1" />
       <Asidemilink :milink="link2" />
       <Asidemilink :milink="link3" />
