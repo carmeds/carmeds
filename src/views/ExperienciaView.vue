@@ -10,7 +10,7 @@ onMounted(()=>{
 </script>
 
 <template>
-    <div class="p-5 m-2 h-screen mt-20 sm:mt-0">
+    <div class="p-5 m-2 h-screen mt-20 sm:mt-0 overflow-auto">
         <h1 class="text-2xl font-bold uppercase text-white">Experiencia Laboral</h1>
         <div v-for="exp in experiencias" :key="exp.id">
             <CardExp :experiencia="exp"/>

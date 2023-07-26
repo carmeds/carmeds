@@ -30,7 +30,7 @@ const misocial1=reactive({
       - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span> 912960047
       - <span class="text-gray-300 ">carmeds@gmail.com</span> 
     </h2>
-    <div class="bg-white mt-5 p-3 rounded hidden sm:flex">
+    <div class="bg-gray-300 mt-5 p-3 rounded hidden sm:flex">
       <p>Bachiller en Matemáticas. Me desempeño como Desarrollador Web Frontend y Backend. Cuento con más de 7 años 
         de experiencia en implementación y desarrollo de aplicaciones.
       </p>
