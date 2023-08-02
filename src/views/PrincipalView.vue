@@ -18,7 +18,7 @@ const misocial1=reactive({
 
 
 <template>
-  <div class="p-5 m-2">
+  <div class="p-5 sm:p-5 m-2">
     <div class=" flex justify-center sm:hidden">
       <img class=" bg-purple-200 rounded-full w-36 h-36 bg-contain" src="/public/img/foto2022.jpg" alt="carga de imagen">
     </div>
