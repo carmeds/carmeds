@@ -27,7 +27,7 @@ const misocial1=reactive({
     <h2 class="text-gray-300 font-bold uppercase sm:hidden">Analista Programador</h2>
 
     <h2 class="text-white font-bold uppercase mt-3"> <span class="text-gray-300"> Mz A lote 9 Urb. El Dorado - Puente piedra </span>
-      - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span> 912960047
+      - <span> &nbsp;<font-awesome-icon :icon="['fab', 'whatsapp']" /> </span> 963018168
       - <span class="text-gray-300 ">carmeds@gmail.com</span> 
     </h2>
     <div class="bg-gray-300 mt-5 p-3 rounded hidden sm:flex">
