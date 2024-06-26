@@ -34,7 +34,8 @@ const menubar=()=>{
 
 <template>
   <div class="bg-gray-800 w-full sm:ml-64 sm:hidden absolute mt-0">
-    <div @click="menubar" class="bg-gray-800 p-2 h-12 w-12 text-white uppercase font-bold flex justify-center items-center cursor-pointer">
+    <div @click="menubar" class="bg-gray-800 p-2 h-12 w-12 text-white uppercase font-bold flex justify-center
+     items-center cursor-pointer">
       <font-awesome-icon :icon="['fas', 'bars']" />
     </div>
 

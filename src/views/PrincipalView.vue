@@ -14,6 +14,12 @@ const misocial1=reactive({
     ruta:'https://github.com/carmeds'
 })
 
+const miportafolio=reactive({
+    cod:'fas',
+    nombre: 'briefcase',
+    ruta:'https://www.tiendacarmeds.store'
+})
+
 </script>
 
 
@@ -32,12 +38,18 @@ const misocial1=reactive({
     </h2>
     <div class="bg-gray-300 mt-5 p-3 rounded hidden sm:flex">
       <p>Bachiller en Matemáticas. Me desempeño como Desarrollador Web Frontend y Backend. Cuento con más de 7 años 
-        de experiencia en implementación y desarrollo de aplicaciones.
+        de experiencia en implementación y desarrollo de aplicaciones e implementación a producción.
       </p>
+    </div>
+    <div class="mt-4 rounded sm:flex">
+      <a :href="miportafolio.ruta" targe="_blank" 
+      class="text-white font-bold bg-blue-400 hover:bg-blue-800 p-2 rounded-md ">Ir a Portafolio Web</a>
     </div>
     <div class="mt-5 pl-0 py1 rounded flex flex-wrap justify-center sm:justify-start">
       <ElementSocial :misocial="misocial"/>
       <ElementSocial :misocial="misocial1"/>
+      <!-- <ElementSocial :misocial="misocial2"/> -->
+
     </div>
   </div>
 </template>

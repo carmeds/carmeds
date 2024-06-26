@@ -16,7 +16,7 @@ onMounted(() => {
         <div class="bg-white mt-3 p-3 rounded">
             <h2 class="font-bold uppercase text-xl text-gray-400">FrontEnd</h2>
             <div class="flex flex-wrap">
-                <div v-for="sk in skills" :key="sk.id">
+                <div v-for="sk in skills" :key="sk.id" class="fle justify-center">
                     <ElementSkill v-if="sk.tipo==1" :miskil="sk"/>
                 </div>
             </div>

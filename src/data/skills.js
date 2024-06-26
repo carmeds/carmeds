@@ -5,6 +5,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'html5',
         micolor:'bg-orange-600',
+        software:'HTML',
     },
     {
         id:2,
@@ -12,6 +13,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'css3-alt',
         micolor:'bg-sky-600',
+        software:'CSS3',        
     },
     {
         id:3,
@@ -19,6 +21,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'square-js',
         micolor:'bg-yellow-500',
+        software:'JavaScript',        
     },
     {
         id:4,
@@ -26,6 +29,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'vuejs',
         micolor:'bg-green-600',
+        software:'Vue 3',        
     },
     {
         id:5,
@@ -33,6 +37,8 @@ export const dbskill=[
         cod:'fab',
         nombre: 'bootstrap',
         micolor:'bg-violet-600',
+        software:'Bootstrap 5.2',        
+
     },
     {
         id:6,
@@ -40,6 +46,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'php',
         micolor:'bg-blue-600',
+        software:'PHP 8.3',        
     },
     {
         id:7,
@@ -47,6 +54,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'laravel',
         micolor:'bg-red-700',
+        software:'Laravel 10-11',        
     },
     {
         id:8,
@@ -54,6 +62,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'git-alt',
         micolor:'bg-red-700',
+        software:'Git',        
     },
     {
         id:9,
@@ -61,6 +70,7 @@ export const dbskill=[
         cod:'fab',
         nombre: 'free-code-camp',
         micolor:'bg-red-600',
+        software:'Codeigniter 3',        
     },
     {
         id:10,
@@ -68,5 +78,6 @@ export const dbskill=[
         cod:'fas',
         nombre: 'database',
         micolor:'bg-blue-500',
+        software:'PostgreSQL',        
     }
 ]

@@ -29,9 +29,10 @@ const link4=reactive({
         <div class="p-5">
             <div class="p-2 flex flex-col justify-center">
                 <div class="w-full flex justify-center">
-                    <img class=" bg-purple-200 rounded-full w-36 h-36 bg-contain" src="/public/img/foto2022.jpg" alt="carga de imagen">
+                    <img class=" bg-purple-200 rounded-full w-36 h-36 bg-contain" 
+                    src="/public/img/foto2022.jpg" alt="carga de imagen">
                 </div>
-                <p class="text-white text-center mt-2 font-bold uppercase">Analista Programador</p>
+                <p class="text-white text-center mt-2 font-bold uppercase">Desarrollador Web</p>
             </div>
             <nav class="p-2">
                 <ul class="p-2 mt-2">
